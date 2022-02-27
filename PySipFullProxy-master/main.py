@@ -3,6 +3,7 @@ import logging
 import time
 import socket
 import socketserver
+import sys
 
 print("SIP Proxy")
 print("Press anything - to start proxy server")
@@ -11,6 +12,9 @@ if input() != "0":
 
     host_name = socket.gethostname()
     ipaddress = socket.gethostbyname(host_name)
+
+    if ipaddress == "127.0.0.1":
+        ipaddress = sys.argv[1]
 
     logging.basicConfig(format='%(asctime)s:%(levelname)s:%(message)s',filename='dennik.log',level=logging.INFO,datefmt='%H:%M:%S')
     logging.info(time.strftime("%a, %d %b %Y"))
