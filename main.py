@@ -3,7 +3,7 @@ import logging
 import time
 import socket
 import socketserver
-import sys
+
 
 print("SIP Proxy")
 print("Press anything - to start proxy server")

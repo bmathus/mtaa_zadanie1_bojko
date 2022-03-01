@@ -24,3 +24,7 @@
 (15:40:47):<<- [gaLma~1hrU] BYE - ukoncenie hovoru | From:matus@192.168.0.12 -> To:bob@192.168.0.12 
 (15:40:47):->> [gaLma~1hrU] SIP/2.0 200 Ok
 (15:40:47):<<- [gaLma~1hrU] SIP/2.0 200 Vsetko okey
+(22:47:12):Tue, 01 Mar 2022
+(22:47:12):SIP Proxy starter at: DESKTOP-8PRR9O6, 192.168.0.12:5060
+(22:48:21):Tue, 01 Mar 2022
+(22:48:21):SIP Proxy starter at: DESKTOP-8PRR9O6, 192.168.0.12:5060

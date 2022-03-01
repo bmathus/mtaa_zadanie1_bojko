@@ -197,7 +197,7 @@ class UDPHandler(socketserver.BaseRequestHandler):
                 break
         return origin
     
-    #metoda ktorá vracia hodnotu CallID zo SIP správy
+    #metoda ktorá vracia hodnotu CallID zo SIP správy - nami implementované
     def getCallId(self,data):
         callid = ""
         for line in data:
