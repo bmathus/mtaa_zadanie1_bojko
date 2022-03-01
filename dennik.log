@@ -28,3 +28,503 @@
 (22:47:12):SIP Proxy starter at: DESKTOP-8PRR9O6, 192.168.0.12:5060
 (22:48:21):Tue, 01 Mar 2022
 (22:48:21):SIP Proxy starter at: DESKTOP-8PRR9O6, 192.168.0.12:5060
+(22:51:24):Tue, 01 Mar 2022
+(22:51:24):SIP Proxy starter at: DESKTOP-8PRR9O6, 192.168.0.12:5060
+(22:51:28):->> REGISTER sip:192.168.0.12 SIP/2.0 | From: bob@192.168.0.12 | Contact: 192.168.0.21:37973
+(22:51:28):<<- [K8EE4QtZym] SIP/2.0 200 Vsetko okey
+(22:51:30):->> REGISTER sip:192.168.0.12 SIP/2.0 | From: matus@192.168.0.12 | Contact: 192.168.0.13:60610
+(22:51:30):<<- [L1mIMDYDIA] SIP/2.0 200 Vsetko okey
+(22:51:31):->> REGISTER sip:192.168.0.12 SIP/2.0 | From: matus@192.168.0.12 | Contact: 192.168.0.13:60610
+(22:51:31):<<- [rV2eE1C0gp] SIP/2.0 200 Vsetko okey
+(22:51:31):->> REGISTER sip:192.168.0.12 SIP/2.0 | From: matus@192.168.0.12 | Contact: 192.168.0.13:60610
+(22:51:31):<<- [cs7lHnzyEy] SIP/2.0 200 Vsetko okey
+(22:51:34):->> REGISTER sip:192.168.0.12 SIP/2.0 | From: matus@192.168.0.12 | Contact: 192.168.0.13:60610
+(22:51:34):<<- [cs7lHnzyEy] SIP/2.0 200 Vsetko okey
+(22:51:36):->> REGISTER sip:192.168.0.12 SIP/2.0 | From: bob@192.168.0.12 | Contact: 192.168.0.21:37973
+(22:51:36):<<- [K8EE4QtZym] SIP/2.0 200 Vsetko okey
+(22:52:05):->> [ew1Xcc3oFN] INVITE - pozvanka do hovoru| From:matus@192.168.0.12 -> To:bob@192.168.0.12
+(22:52:05):<<- [ew1Xcc3oFN] INVITE - pozvanka do hovoru| From:matus@192.168.0.12 -> To:bob@192.168.0.12
+(22:52:05):->> [ew1Xcc3oFN] SIP/2.0 100 Trying
+(22:52:05):<<- [ew1Xcc3oFN] SIP/2.0 100 Skusam
+(22:52:05):->> [ew1Xcc3oFN] SIP/2.0 180 Ringing
+(22:52:05):<<- [ew1Xcc3oFN] SIP/2.0 180 Zvoni
+(22:52:08):->> [ew1Xcc3oFN] SIP/2.0 200 Ok
+(22:52:08):<<- [ew1Xcc3oFN] SIP/2.0 200 Vsetko okey
+(22:52:08):->> [ew1Xcc3oFN] ACK - zaciatok hovoru 
+(22:52:08):<<- [ew1Xcc3oFN] ACK - zaciatok hovoru 
+(22:52:10):->> [ew1Xcc3oFN] INVITE | From:matus@192.168.0.12 -> To:bob@192.168.0.12
+(22:52:10):<<- [ew1Xcc3oFN] INVITE | From:matus@192.168.0.12 -> To:bob@192.168.0.12
+(22:52:10):->> [ew1Xcc3oFN] SIP/2.0 100 Trying
+(22:52:10):<<- [ew1Xcc3oFN] SIP/2.0 100 Skusam
+(22:52:13):->> [ew1Xcc3oFN] SIP/2.0 200 Ok
+(22:52:13):<<- [ew1Xcc3oFN] SIP/2.0 200 Vsetko okey
+(22:52:13):->> [ew1Xcc3oFN] SIP/2.0 200 Ok
+(22:52:13):<<- [ew1Xcc3oFN] SIP/2.0 200 Vsetko okey
+(22:52:14):->> [ew1Xcc3oFN] ACK 
+(22:52:14):<<- [ew1Xcc3oFN] ACK 
+(22:52:14):->> [ew1Xcc3oFN] ACK 
+(22:52:14):<<- [ew1Xcc3oFN] ACK 
+(22:52:18):->> [ew1Xcc3oFN] INVITE | From:bob@192.168.0.12 -> To:matus@192.168.0.12
+(22:52:18):<<- [ew1Xcc3oFN] INVITE | From:bob@192.168.0.12 -> To:matus@192.168.0.12
+(22:52:18):->> [ew1Xcc3oFN] SIP/2.0 100 Trying
+(22:52:18):<<- [ew1Xcc3oFN] SIP/2.0 100 Skusam
+(22:52:18):->> [ew1Xcc3oFN] SIP/2.0 200 Ok
+(22:52:18):<<- [ew1Xcc3oFN] SIP/2.0 200 Vsetko okey
+(22:52:19):->> [ew1Xcc3oFN] ACK 
+(22:52:19):<<- [ew1Xcc3oFN] ACK 
+(22:52:21):->> [ew1Xcc3oFN] BYE - ukoncenie hovoru | From:matus@192.168.0.12 -> To:bob@192.168.0.12
+(22:52:21):<<- [ew1Xcc3oFN] BYE - ukoncenie hovoru | From:matus@192.168.0.12 -> To:bob@192.168.0.12 
+(22:52:21):->> [ew1Xcc3oFN] SIP/2.0 200 Ok
+(22:52:21):<<- [ew1Xcc3oFN] SIP/2.0 200 Vsetko okey
+(22:52:31):->> [ShUV4cot7C] INVITE - pozvanka do hovoru| From:matus@192.168.0.12 -> To:bob@192.168.0.12
+(22:52:31):<<- [ShUV4cot7C] INVITE - pozvanka do hovoru| From:matus@192.168.0.12 -> To:bob@192.168.0.12
+(22:52:31):->> [ShUV4cot7C] SIP/2.0 100 Trying
+(22:52:31):<<- [ShUV4cot7C] SIP/2.0 100 Skusam
+(22:52:31):->> [ShUV4cot7C] SIP/2.0 180 Ringing
+(22:52:31):<<- [ShUV4cot7C] SIP/2.0 180 Zvoni
+(22:52:34):->> [ShUV4cot7C] SIP/2.0 200 Ok
+(22:52:34):<<- [ShUV4cot7C] SIP/2.0 200 Vsetko okey
+(22:52:35):->> [ShUV4cot7C] ACK - zaciatok hovoru 
+(22:52:35):<<- [ShUV4cot7C] ACK - zaciatok hovoru 
+(22:52:38):->> [ShUV4cot7C] INVITE | From:matus@192.168.0.12 -> To:bob@192.168.0.12
+(22:52:38):<<- [ShUV4cot7C] INVITE | From:matus@192.168.0.12 -> To:bob@192.168.0.12
+(22:52:38):->> [ShUV4cot7C] SIP/2.0 100 Trying
+(22:52:38):<<- [ShUV4cot7C] SIP/2.0 100 Skusam
+(22:52:43):->> [ShUV4cot7C] SIP/2.0 200 Ok
+(22:52:43):<<- [ShUV4cot7C] SIP/2.0 200 Vsetko okey
+(22:52:43):->> [ShUV4cot7C] SIP/2.0 200 Ok
+(22:52:43):<<- [ShUV4cot7C] SIP/2.0 200 Vsetko okey
+(22:52:44):->> [ShUV4cot7C] ACK 
+(22:52:44):<<- [ShUV4cot7C] ACK 
+(22:52:44):->> [ShUV4cot7C] ACK 
+(22:52:44):<<- [ShUV4cot7C] ACK 
+(22:52:54):->> [ShUV4cot7C] BYE - ukoncenie hovoru | From:matus@192.168.0.12 -> To:bob@192.168.0.12
+(22:52:54):<<- [ShUV4cot7C] BYE - ukoncenie hovoru | From:matus@192.168.0.12 -> To:bob@192.168.0.12 
+(22:52:55):->> [ShUV4cot7C] SIP/2.0 200 Ok
+(22:52:55):<<- [ShUV4cot7C] SIP/2.0 200 Vsetko okey
+(22:53:35):->> [k~p4EL7DeG] INVITE - pozvanka do hovoru| From:bob@192.168.0.12 -> To:matus@192.168.0.12
+(22:53:35):<<- [k~p4EL7DeG] INVITE - pozvanka do hovoru| From:bob@192.168.0.12 -> To:matus@192.168.0.12
+(22:53:35):->> [k~p4EL7DeG] SIP/2.0 100 Trying
+(22:53:35):<<- [k~p4EL7DeG] SIP/2.0 100 Skusam
+(22:53:35):->> [k~p4EL7DeG] SIP/2.0 180 Ringing
+(22:53:35):<<- [k~p4EL7DeG] SIP/2.0 180 Zvoni
+(22:53:37):->> [k~p4EL7DeG] SIP/2.0 200 Ok
+(22:53:37):<<- [k~p4EL7DeG] SIP/2.0 200 Vsetko okey
+(22:53:38):->> [k~p4EL7DeG] SIP/2.0 200 Ok
+(22:53:38):<<- [k~p4EL7DeG] SIP/2.0 200 Vsetko okey
+(22:53:38):->> [k~p4EL7DeG] ACK - zaciatok hovoru 
+(22:53:38):<<- [k~p4EL7DeG] ACK - zaciatok hovoru 
+(22:53:38):->> [k~p4EL7DeG] ACK 
+(22:53:38):<<- [k~p4EL7DeG] ACK 
+(22:53:43):->> [k~p4EL7DeG] BYE - ukoncenie hovoru | From:matus@192.168.0.12 -> To:bob@192.168.0.12
+(22:53:43):<<- [k~p4EL7DeG] BYE - ukoncenie hovoru | From:matus@192.168.0.12 -> To:bob@192.168.0.12 
+(22:53:43):->> [k~p4EL7DeG] SIP/2.0 200 Ok
+(22:53:43):<<- [k~p4EL7DeG] SIP/2.0 200 Vsetko okey
+(22:53:50):->> [dAWoccoJ8S] INVITE - pozvanka do hovoru| From:matus@192.168.0.12 -> To:bob@192.168.0.12
+(22:53:50):<<- [dAWoccoJ8S] INVITE - pozvanka do hovoru| From:matus@192.168.0.12 -> To:bob@192.168.0.12
+(22:53:51):->> [dAWoccoJ8S] SIP/2.0 100 Trying
+(22:53:51):<<- [dAWoccoJ8S] SIP/2.0 100 Skusam
+(22:53:51):->> [dAWoccoJ8S] SIP/2.0 180 Ringing
+(22:53:51):<<- [dAWoccoJ8S] SIP/2.0 180 Zvoni
+(22:53:54):->> [dAWoccoJ8S] SIP/2.0 200 Ok
+(22:53:54):<<- [dAWoccoJ8S] SIP/2.0 200 Vsetko okey
+(22:53:55):->> [dAWoccoJ8S] ACK - zaciatok hovoru 
+(22:53:55):<<- [dAWoccoJ8S] ACK - zaciatok hovoru 
+(22:54:01):->> [dAWoccoJ8S] INVITE | From:matus@192.168.0.12 -> To:bob@192.168.0.12
+(22:54:01):<<- [dAWoccoJ8S] INVITE | From:matus@192.168.0.12 -> To:bob@192.168.0.12
+(22:54:01):->> [dAWoccoJ8S] SIP/2.0 100 Trying
+(22:54:01):<<- [dAWoccoJ8S] SIP/2.0 100 Skusam
+(22:54:02):->> [dAWoccoJ8S] SIP/2.0 200 Ok
+(22:54:02):<<- [dAWoccoJ8S] SIP/2.0 200 Vsetko okey
+(22:54:03):->> [dAWoccoJ8S] SIP/2.0 200 Ok
+(22:54:03):<<- [dAWoccoJ8S] SIP/2.0 200 Vsetko okey
+(22:54:03):->> [dAWoccoJ8S] ACK 
+(22:54:03):<<- [dAWoccoJ8S] ACK 
+(22:54:03):->> [dAWoccoJ8S] ACK 
+(22:54:03):<<- [dAWoccoJ8S] ACK 
+(22:54:08):->> [dAWoccoJ8S] BYE - ukoncenie hovoru | From:matus@192.168.0.12 -> To:bob@192.168.0.12
+(22:54:08):<<- [dAWoccoJ8S] BYE - ukoncenie hovoru | From:matus@192.168.0.12 -> To:bob@192.168.0.12 
+(22:54:08):->> [dAWoccoJ8S] SIP/2.0 200 Ok
+(22:54:08):<<- [dAWoccoJ8S] SIP/2.0 200 Vsetko okey
+(22:59:32):->> REGISTER sip:192.168.0.12 SIP/2.0 | From: matus@192.168.0.12 | Contact: 192.168.0.13:51602
+(22:59:32):<<- [OXEl2hQY4M] SIP/2.0 200 Vsetko okey
+(22:59:34):->> REGISTER sip:192.168.0.12 SIP/2.0 | From: matus@192.168.0.12 | Contact: 192.168.0.13:51602
+(22:59:34):<<- [OXEl2hQY4M] SIP/2.0 200 Vsetko okey
+(22:59:35):->> REGISTER sip:192.168.0.12 SIP/2.0 | From: matus@192.168.0.12 | Contact: 192.168.0.13:51602
+(22:59:35):<<- [OXEl2hQY4M] SIP/2.0 200 Vsetko okey
+(22:59:36):->> REGISTER sip:192.168.0.12 SIP/2.0 | From: matus@192.168.0.12 | Contact: 192.168.0.13:51602
+(22:59:36):<<- [OXEl2hQY4M] SIP/2.0 200 Vsetko okey
+(22:59:37):->> REGISTER sip:192.168.0.12 SIP/2.0 | From: bob@192.168.0.12 | Contact: 192.168.0.21:37973
+(22:59:37):<<- [K8EE4QtZym] SIP/2.0 200 Vsetko okey
+(23:00:55):->> REGISTER sip:192.168.0.12 SIP/2.0 | From: alica@192.168.0.12 | Contact: 192.168.0.15:52046
+(23:00:55):<<- [-8wMwZdocN] SIP/2.0 200 Vsetko okey
+(23:00:55):>>> PUBLISH sip:alica@192.168.0.12 SIP/2.0
+(23:00:55):<<- [lOPE5UzrlB] SIP/2.0 200 Vsetko okey
+(23:01:09):->> REGISTER sip:192.168.0.12 SIP/2.0 | From: alica@192.168.0.12 | Contact: 192.168.0.15:52046
+(23:01:09):<<- [-8wMwZdocN] SIP/2.0 200 Vsetko okey
+(23:01:14):->> REGISTER sip:192.168.0.12 SIP/2.0 | From: bob@192.168.0.12 | Contact: 192.168.0.21:37973
+(23:01:14):<<- [K8EE4QtZym] SIP/2.0 200 Vsetko okey
+(23:01:16):->> REGISTER sip:192.168.0.12 SIP/2.0 | From: matus@192.168.0.12 | Contact: 192.168.0.13:51602
+(23:01:16):<<- [OXEl2hQY4M] SIP/2.0 200 Vsetko okey
+(23:01:26):->> REGISTER sip:192.168.0.12 SIP/2.0 | From: matus@192.168.0.12 | Contact: 192.168.0.13:51602
+(23:01:26):<<- [OXEl2hQY4M] SIP/2.0 200 Vsetko okey
+(23:01:28):->> REGISTER sip:192.168.0.12 SIP/2.0 | From: bob@192.168.0.12 | Contact: 192.168.0.21:37973
+(23:01:28):<<- [K8EE4QtZym] SIP/2.0 200 Vsetko okey
+(23:01:30):->> REGISTER sip:192.168.0.12 SIP/2.0 | From: alica@192.168.0.12 | Contact: 192.168.0.15:52046
+(23:01:30):<<- [-8wMwZdocN] SIP/2.0 200 Vsetko okey
+(23:02:05):->> [yrWudA9E3d] INVITE - pozvanka do hovoru| From:alica@192.168.0.12 -> To:bob@192.168.0.12
+(23:02:05):<<- [yrWudA9E3d] INVITE - pozvanka do hovoru| From:alica@192.168.0.12 -> To:bob@192.168.0.12
+(23:02:05):->> [p2rr51Sor7] INVITE - pozvanka do hovoru| From:alica@192.168.0.12 -> To:matus@192.168.0.12
+(23:02:05):<<- [p2rr51Sor7] INVITE - pozvanka do hovoru| From:alica@192.168.0.12 -> To:matus@192.168.0.12
+(23:02:05):->> [yrWudA9E3d] SIP/2.0 100 Trying
+(23:02:05):<<- [yrWudA9E3d] SIP/2.0 100 Skusam
+(23:02:05):->> [p2rr51Sor7] SIP/2.0 100 Trying
+(23:02:05):<<- [p2rr51Sor7] SIP/2.0 100 Skusam
+(23:02:05):->> [p2rr51Sor7] SIP/2.0 180 Ringing
+(23:02:05):<<- [p2rr51Sor7] SIP/2.0 180 Zvoni
+(23:02:05):->> [yrWudA9E3d] SIP/2.0 180 Ringing
+(23:02:05):<<- [yrWudA9E3d] SIP/2.0 180 Zvoni
+(23:02:09):->> [yrWudA9E3d] SIP/2.0 200 Ok
+(23:02:09):<<- [yrWudA9E3d] SIP/2.0 200 Vsetko okey
+(23:02:10):->> [yrWudA9E3d] ACK - zaciatok hovoru 
+(23:02:10):<<- [yrWudA9E3d] ACK - zaciatok hovoru 
+(23:02:12):->> [p2rr51Sor7] SIP/2.0 200 Ok
+(23:02:12):<<- [p2rr51Sor7] SIP/2.0 200 Vsetko okey
+(23:02:12):>>> SUBSCRIBE sip:alica@192.168.0.15;conf-id=eVXKL;transport=udp SIP/2.0
+(23:02:12):<<- [LCAqcfVTZC] SIP/2.0 200 Vsetko okey
+(23:02:12):->> [p2rr51Sor7] ACK - zaciatok hovoru 
+(23:02:12):<<- [p2rr51Sor7] ACK - zaciatok hovoru 
+(23:02:26):->> [yrWudA9E3d] BYE - ukoncenie hovoru | From:alica@192.168.0.12 -> To:bob@192.168.0.12
+(23:02:26):<<- [yrWudA9E3d] BYE - ukoncenie hovoru | From:alica@192.168.0.12 -> To:bob@192.168.0.12 
+(23:02:26):->> [yrWudA9E3d] SIP/2.0 200 Ok
+(23:02:26):<<- [yrWudA9E3d] SIP/2.0 200 Vsetko okey
+(23:02:26):->> [p2rr51Sor7] BYE - ukoncenie hovoru | From:alica@192.168.0.12 -> To:matus@192.168.0.12
+(23:02:26):<<- [p2rr51Sor7] BYE - ukoncenie hovoru | From:alica@192.168.0.12 -> To:matus@192.168.0.12 
+(23:02:26):->> [p2rr51Sor7] SIP/2.0 200 Ok
+(23:02:26):<<- [p2rr51Sor7] SIP/2.0 200 Vsetko okey
+(23:02:26):>>> SUBSCRIBE sip:matus@192.168.0.13:51602;pn-prid=B7FD194D2B9C3604B544F13E2F11E510F4BEF510FAA4E02C54656F9EE78E64F1:voip&BCB66E89CC0D4F16C20EC61B0D4583895576FBDC45DEAFBD7E8F7C760BA7FB22:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+(23:02:26):<<- [LCAqcfVTZC] SIP/2.0 200 Vsetko okey
+(23:05:10):->> REGISTER sip:192.168.0.12 SIP/2.0 | From: bob@192.168.0.12 | Contact: 192.168.0.21:37973
+(23:05:10):<<- [K8EE4QtZym] SIP/2.0 200 Vsetko okey
+(23:05:12):->> REGISTER sip:192.168.0.12 SIP/2.0 | From: matus@192.168.0.12 | Contact: 192.168.0.13:51602
+(23:05:12):<<- [OXEl2hQY4M] SIP/2.0 200 Vsetko okey
+(23:05:15):->> REGISTER sip:192.168.0.12 SIP/2.0 | From: alica@192.168.0.12 | Contact: 192.168.0.15:52046
+(23:05:15):<<- [-8wMwZdocN] SIP/2.0 200 Vsetko okey
+(23:05:34):->> [kRVkuuXGcV] INVITE - pozvanka do hovoru| From:alica@192.168.0.12 -> To:bob@192.168.0.12
+(23:05:34):<<- [kRVkuuXGcV] INVITE - pozvanka do hovoru| From:alica@192.168.0.12 -> To:bob@192.168.0.12
+(23:05:34):->> [GnxITeWLav] INVITE - pozvanka do hovoru| From:alica@192.168.0.12 -> To:matus@192.168.0.12
+(23:05:34):<<- [GnxITeWLav] INVITE - pozvanka do hovoru| From:alica@192.168.0.12 -> To:matus@192.168.0.12
+(23:05:34):->> [kRVkuuXGcV] SIP/2.0 100 Trying
+(23:05:34):<<- [kRVkuuXGcV] SIP/2.0 100 Skusam
+(23:05:34):->> [GnxITeWLav] SIP/2.0 100 Trying
+(23:05:34):<<- [GnxITeWLav] SIP/2.0 100 Skusam
+(23:05:34):->> [GnxITeWLav] SIP/2.0 180 Ringing
+(23:05:34):<<- [GnxITeWLav] SIP/2.0 180 Zvoni
+(23:05:34):->> [kRVkuuXGcV] SIP/2.0 180 Ringing
+(23:05:34):<<- [kRVkuuXGcV] SIP/2.0 180 Zvoni
+(23:05:37):->> [kRVkuuXGcV] SIP/2.0 200 Ok
+(23:05:37):<<- [kRVkuuXGcV] SIP/2.0 200 Vsetko okey
+(23:05:37):->> [kRVkuuXGcV] ACK - zaciatok hovoru 
+(23:05:37):<<- [kRVkuuXGcV] ACK - zaciatok hovoru 
+(23:05:40):->> [GnxITeWLav] SIP/2.0 200 Ok
+(23:05:40):<<- [GnxITeWLav] SIP/2.0 200 Vsetko okey
+(23:05:40):>>> SUBSCRIBE sip:alica@192.168.0.15;conf-id=eVXKL;transport=udp SIP/2.0
+(23:05:40):<<- [Z-XOTbElFg] SIP/2.0 200 Vsetko okey
+(23:05:40):->> [GnxITeWLav] ACK - zaciatok hovoru 
+(23:05:40):<<- [GnxITeWLav] ACK - zaciatok hovoru 
+(23:05:50):->> [GnxITeWLav] BYE - ukoncenie hovoru | From:matus@192.168.0.12 -> To:alica@192.168.0.12
+(23:05:50):<<- [GnxITeWLav] BYE - ukoncenie hovoru | From:matus@192.168.0.12 -> To:alica@192.168.0.12 
+(23:05:50):>>> SUBSCRIBE sip:matus@192.168.0.13:51602;pn-prid=B7FD194D2B9C3604B544F13E2F11E510F4BEF510FAA4E02C54656F9EE78E64F1:voip&BCB66E89CC0D4F16C20EC61B0D4583895576FBDC45DEAFBD7E8F7C760BA7FB22:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+(23:05:50):<<- [Z-XOTbElFg] SIP/2.0 200 Vsetko okey
+(23:05:50):->> [GnxITeWLav] SIP/2.0 200 Ok
+(23:05:50):<<- [GnxITeWLav] SIP/2.0 200 Vsetko okey
+(23:05:59):->> [kRVkuuXGcV] BYE - ukoncenie hovoru | From:bob@192.168.0.12 -> To:alica@192.168.0.12
+(23:05:59):<<- [kRVkuuXGcV] BYE - ukoncenie hovoru | From:bob@192.168.0.12 -> To:alica@192.168.0.12 
+(23:05:59):->> [kRVkuuXGcV] SIP/2.0 200 Ok
+(23:05:59):<<- [kRVkuuXGcV] SIP/2.0 200 Vsetko okey
+(23:09:56):>>> PUBLISH sip:alica@192.168.0.12 SIP/2.0
+(23:09:56):<<- [lOPE5UzrlB] SIP/2.0 200 Vsetko okey
+(23:14:15):->> REGISTER sip:192.168.0.12 SIP/2.0 | From: alica@192.168.0.12 | Contact: 192.168.0.15:52046
+(23:14:15):<<- [-8wMwZdocN] SIP/2.0 200 Vsetko okey
+(23:18:56):>>> PUBLISH sip:alica@192.168.0.12 SIP/2.0
+(23:18:56):<<- [lOPE5UzrlB] SIP/2.0 200 Vsetko okey
+(23:23:15):->> REGISTER sip:192.168.0.12 SIP/2.0 | From: alica@192.168.0.12 | Contact: 192.168.0.15:52046
+(23:23:15):<<- [-8wMwZdocN] SIP/2.0 200 Vsetko okey
+(23:27:56):>>> PUBLISH sip:alica@192.168.0.12 SIP/2.0
+(23:27:56):<<- [lOPE5UzrlB] SIP/2.0 200 Vsetko okey
+(23:28:43):->> REGISTER sip:192.168.0.12 SIP/2.0 | From: alica@192.168.0.12 | Contact: 192.168.0.15:52046
+(23:28:43):<<- [-8wMwZdocN] SIP/2.0 200 Vsetko okey
+(23:28:46):->> REGISTER sip:192.168.0.12 SIP/2.0 | From: matus@192.168.0.12 | Contact: 192.168.0.13:51602
+(23:28:46):<<- [OXEl2hQY4M] SIP/2.0 200 Vsetko okey
+(23:28:47):->> REGISTER sip:192.168.0.12 SIP/2.0 | From: bob@192.168.0.12 | Contact: 192.168.0.21:37973
+(23:28:47):<<- [K8EE4QtZym] SIP/2.0 200 Vsetko okey
+(23:29:04):->> [HUT9eLiyIl] INVITE - pozvanka do hovoru| From:alica@192.168.0.12 -> To:bob@192.168.0.12
+(23:29:04):<<- [HUT9eLiyIl] INVITE - pozvanka do hovoru| From:alica@192.168.0.12 -> To:bob@192.168.0.12
+(23:29:05):->> [mN5ttL75id] INVITE - pozvanka do hovoru| From:alica@192.168.0.12 -> To:matus@192.168.0.12
+(23:29:05):<<- [mN5ttL75id] INVITE - pozvanka do hovoru| From:alica@192.168.0.12 -> To:matus@192.168.0.12
+(23:29:05):->> [HUT9eLiyIl] SIP/2.0 100 Trying
+(23:29:05):<<- [HUT9eLiyIl] SIP/2.0 100 Skusam
+(23:29:05):->> [mN5ttL75id] SIP/2.0 100 Trying
+(23:29:05):<<- [mN5ttL75id] SIP/2.0 100 Skusam
+(23:29:05):->> [mN5ttL75id] SIP/2.0 180 Ringing
+(23:29:05):<<- [mN5ttL75id] SIP/2.0 180 Zvoni
+(23:29:05):->> [HUT9eLiyIl] SIP/2.0 180 Ringing
+(23:29:05):<<- [HUT9eLiyIl] SIP/2.0 180 Zvoni
+(23:29:07):->> [HUT9eLiyIl] SIP/2.0 200 Ok
+(23:29:07):<<- [HUT9eLiyIl] SIP/2.0 200 Vsetko okey
+(23:29:07):->> [HUT9eLiyIl] ACK - zaciatok hovoru 
+(23:29:07):<<- [HUT9eLiyIl] ACK - zaciatok hovoru 
+(23:29:09):->> [mN5ttL75id] SIP/2.0 200 Ok
+(23:29:09):<<- [mN5ttL75id] SIP/2.0 200 Vsetko okey
+(23:29:10):>>> SUBSCRIBE sip:alica@192.168.0.15;conf-id=eVXKL;transport=udp SIP/2.0
+(23:29:10):<<- [8aSu60myjQ] SIP/2.0 200 Vsetko okey
+(23:29:10):->> [mN5ttL75id] ACK - zaciatok hovoru 
+(23:29:10):<<- [mN5ttL75id] ACK - zaciatok hovoru 
+(23:29:16):->> [HUT9eLiyIl] BYE - ukoncenie hovoru | From:alica@192.168.0.12 -> To:bob@192.168.0.12
+(23:29:16):<<- [HUT9eLiyIl] BYE - ukoncenie hovoru | From:alica@192.168.0.12 -> To:bob@192.168.0.12 
+(23:29:16):->> [HUT9eLiyIl] SIP/2.0 200 Ok
+(23:29:16):<<- [HUT9eLiyIl] SIP/2.0 200 Vsetko okey
+(23:29:16):->> [mN5ttL75id] BYE - ukoncenie hovoru | From:alica@192.168.0.12 -> To:matus@192.168.0.12
+(23:29:16):<<- [mN5ttL75id] BYE - ukoncenie hovoru | From:alica@192.168.0.12 -> To:matus@192.168.0.12 
+(23:29:16):->> [mN5ttL75id] SIP/2.0 200 Ok
+(23:29:16):<<- [mN5ttL75id] SIP/2.0 200 Vsetko okey
+(23:29:16):>>> SUBSCRIBE sip:matus@192.168.0.13:51602;pn-prid=B7FD194D2B9C3604B544F13E2F11E510F4BEF510FAA4E02C54656F9EE78E64F1:voip&BCB66E89CC0D4F16C20EC61B0D4583895576FBDC45DEAFBD7E8F7C760BA7FB22:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+(23:29:16):<<- [8aSu60myjQ] SIP/2.0 200 Vsetko okey
+(23:32:34):->> REGISTER sip:192.168.0.12 SIP/2.0 | From: matus@192.168.0.12 | Contact: 192.168.0.13:51602
+(23:32:34):<<- [OXEl2hQY4M] SIP/2.0 200 Vsetko okey
+(23:32:35):->> REGISTER sip:192.168.0.12 SIP/2.0 | From: bob@192.168.0.12 | Contact: 192.168.0.21:37973
+(23:32:35):<<- [K8EE4QtZym] SIP/2.0 200 Vsetko okey
+(23:32:37):->> REGISTER sip:192.168.0.12 SIP/2.0 | From: alica@192.168.0.12 | Contact: 192.168.0.15:52046
+(23:32:37):<<- [-8wMwZdocN] SIP/2.0 200 Vsetko okey
+(23:33:02):->> [zChnc21mkJ] INVITE - pozvanka do hovoru| From:matus@192.168.0.12 -> To:bob@192.168.0.12
+(23:33:02):<<- [zChnc21mkJ] INVITE - pozvanka do hovoru| From:matus@192.168.0.12 -> To:bob@192.168.0.12
+(23:33:02):->> [zChnc21mkJ] SIP/2.0 100 Trying
+(23:33:02):<<- [zChnc21mkJ] SIP/2.0 100 Skusam
+(23:33:02):->> [zChnc21mkJ] SIP/2.0 180 Ringing
+(23:33:02):<<- [zChnc21mkJ] SIP/2.0 180 Zvoni
+(23:33:05):->> [zChnc21mkJ] SIP/2.0 200 Ok
+(23:33:05):<<- [zChnc21mkJ] SIP/2.0 200 Vsetko okey
+(23:33:05):->> [zChnc21mkJ] ACK - zaciatok hovoru 
+(23:33:05):<<- [zChnc21mkJ] ACK - zaciatok hovoru 
+(23:33:22):->> [zChnc21mkJ] REFER sip:bob@192.168.0.21:37973;transport=udp SIP/2.0 | From:matus@192.168.0.12 -> To:bob@192.168.0.12
+(23:33:22):<<- [zChnc21mkJ] REFER sip:bob@192.168.0.21:37973;transport=udp SIP/2.0 | From:matus@192.168.0.12 -> To:bob@192.168.0.12 
+(23:33:22):->> [zChnc21mkJ] SIP/2.0 202 Accepted
+(23:33:22):<<- [zChnc21mkJ] SIP/2.0 202 Accepted
+(23:33:23):->> [zChnc21mkJ] INVITE | From:bob@192.168.0.12 -> To:matus@192.168.0.12
+(23:33:23):<<- [zChnc21mkJ] INVITE | From:bob@192.168.0.12 -> To:matus@192.168.0.12
+(23:33:23):->> [TLS5X2SbZO] INVITE - pozvanka do hovoru| From:bob@192.168.0.12 -> To:alica@192.168.0.12
+(23:33:23):<<- [TLS5X2SbZO] INVITE - pozvanka do hovoru| From:bob@192.168.0.12 -> To:alica@192.168.0.12
+(23:33:23):->> [TLS5X2SbZO] SIP/2.0 100 Trying
+(23:33:23):<<- [TLS5X2SbZO] SIP/2.0 100 Skusam
+(23:33:23):->> [zChnc21mkJ] SIP/2.0 100 Trying
+(23:33:23):<<- [zChnc21mkJ] SIP/2.0 100 Skusam
+(23:33:23):->> [zChnc21mkJ] SIP/2.0 200 Ok
+(23:33:23):<<- [zChnc21mkJ] SIP/2.0 200 Vsetko okey
+(23:33:23):->> [zChnc21mkJ] ACK 
+(23:33:23):<<- [zChnc21mkJ] ACK 
+(23:33:23):>>> NOTIFY sip:matus@192.168.0.13:51602;pn-prid=B7FD194D2B9C3604B544F13E2F11E510F4BEF510FAA4E02C54656F9EE78E64F1:voip&BCB66E89CC0D4F16C20EC61B0D4583895576FBDC45DEAFBD7E8F7C760BA7FB22:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+(23:33:23):<<- [zChnc21mkJ] SIP/2.0 200 Vsetko okey
+(23:33:23):->> [TLS5X2SbZO] SIP/2.0 180 Ringing
+(23:33:23):<<- [TLS5X2SbZO] SIP/2.0 180 Zvoni
+(23:33:31):->> [TLS5X2SbZO] SIP/2.0 200 Ok
+(23:33:31):<<- [TLS5X2SbZO] SIP/2.0 200 Vsetko okey
+(23:33:32):>>> NOTIFY sip:matus@192.168.0.13:51602;pn-prid=B7FD194D2B9C3604B544F13E2F11E510F4BEF510FAA4E02C54656F9EE78E64F1:voip&BCB66E89CC0D4F16C20EC61B0D4583895576FBDC45DEAFBD7E8F7C760BA7FB22:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+(23:33:32):<<- [zChnc21mkJ] SIP/2.0 200 Vsetko okey
+(23:33:32):->> [TLS5X2SbZO] SIP/2.0 200 Ok
+(23:33:32):<<- [TLS5X2SbZO] SIP/2.0 200 Vsetko okey
+(23:33:32):->> [TLS5X2SbZO] ACK - zaciatok hovoru 
+(23:33:32):<<- [TLS5X2SbZO] ACK - zaciatok hovoru 
+(23:33:32):->> [TLS5X2SbZO] ACK 
+(23:33:32):<<- [TLS5X2SbZO] ACK 
+(23:33:50):->> [zChnc21mkJ] INVITE | From:matus@192.168.0.12 -> To:bob@192.168.0.12
+(23:33:50):<<- [zChnc21mkJ] INVITE | From:matus@192.168.0.12 -> To:bob@192.168.0.12
+(23:33:50):->> [0W0J~ipWrt] INVITE - pozvanka do hovoru| From:matus@192.168.0.12 -> To:alica@192.168.0.12
+(23:33:50):<<- [0W0J~ipWrt] INVITE - pozvanka do hovoru| From:matus@192.168.0.12 -> To:alica@192.168.0.12
+(23:33:50):->> [zChnc21mkJ] SIP/2.0 100 Trying
+(23:33:50):<<- [zChnc21mkJ] SIP/2.0 100 Skusam
+(23:33:50):->> [0W0J~ipWrt] SIP/2.0 100 Trying
+(23:33:50):<<- [0W0J~ipWrt] SIP/2.0 100 Skusam
+(23:33:50):->> [zChnc21mkJ] SIP/2.0 200 Ok
+(23:33:50):<<- [zChnc21mkJ] SIP/2.0 200 Vsetko okey
+(23:33:50):->> [zChnc21mkJ] ACK 
+(23:33:50):<<- [zChnc21mkJ] ACK 
+(23:33:51):->> [0W0J~ipWrt] SIP/2.0 180 Ringing
+(23:33:51):<<- [0W0J~ipWrt] SIP/2.0 180 Zvoni
+(23:33:55):->> [TLS5X2SbZO] INVITE | From:bob@192.168.0.12 -> To:alica@192.168.0.12
+(23:33:55):<<- [TLS5X2SbZO] INVITE | From:bob@192.168.0.12 -> To:alica@192.168.0.12
+(23:33:55):->> [zChnc21mkJ] INVITE | From:bob@192.168.0.12 -> To:matus@192.168.0.12
+(23:33:55):<<- [zChnc21mkJ] INVITE | From:bob@192.168.0.12 -> To:matus@192.168.0.12
+(23:33:55):->> [TLS5X2SbZO] SIP/2.0 100 Trying
+(23:33:55):<<- [TLS5X2SbZO] SIP/2.0 100 Skusam
+(23:33:55):->> [TLS5X2SbZO] SIP/2.0 200 Ok
+(23:33:55):<<- [TLS5X2SbZO] SIP/2.0 200 Vsetko okey
+(23:33:55):->> [TLS5X2SbZO] ACK 
+(23:33:55):<<- [TLS5X2SbZO] ACK 
+(23:33:55):->> [zChnc21mkJ] SIP/2.0 100 Trying
+(23:33:55):<<- [zChnc21mkJ] SIP/2.0 100 Skusam
+(23:33:55):->> [zChnc21mkJ] SIP/2.0 200 Ok
+(23:33:55):<<- [zChnc21mkJ] SIP/2.0 200 Vsetko okey
+(23:33:56):->> [zChnc21mkJ] ACK 
+(23:33:56):<<- [zChnc21mkJ] ACK 
+(23:33:59):->> [zChnc21mkJ] BYE - ukoncenie hovoru | From:bob@192.168.0.12 -> To:matus@192.168.0.12
+(23:33:59):<<- [zChnc21mkJ] BYE - ukoncenie hovoru | From:bob@192.168.0.12 -> To:matus@192.168.0.12 
+(23:34:00):->> [zChnc21mkJ] SIP/2.0 200 Ok
+(23:34:00):<<- [zChnc21mkJ] SIP/2.0 200 Vsetko okey
+(23:34:02):->> [TLS5X2SbZO] BYE - ukoncenie hovoru | From:bob@192.168.0.12 -> To:alica@192.168.0.12
+(23:34:02):<<- [TLS5X2SbZO] BYE - ukoncenie hovoru | From:bob@192.168.0.12 -> To:alica@192.168.0.12 
+(23:34:02):->> [TLS5X2SbZO] SIP/2.0 200 Ok
+(23:34:02):<<- [TLS5X2SbZO] SIP/2.0 200 Vsetko okey
+(23:34:05):->> [0W0J~ipWrt] SIP/2.0 603 Decline
+(23:34:05):<<- [0W0J~ipWrt] SIP/2.0 603 Odmietnutie
+(23:34:05):->> [0W0J~ipWrt] ACK 
+(23:34:05):<<- [0W0J~ipWrt] ACK 
+(23:34:23):->> [8v6PCj6aLN] INVITE - pozvanka do hovoru| From:matus@192.168.0.12 -> To:bob@192.168.0.12
+(23:34:23):<<- [8v6PCj6aLN] INVITE - pozvanka do hovoru| From:matus@192.168.0.12 -> To:bob@192.168.0.12
+(23:34:23):->> [8v6PCj6aLN] SIP/2.0 100 Trying
+(23:34:23):<<- [8v6PCj6aLN] SIP/2.0 100 Skusam
+(23:34:23):->> [8v6PCj6aLN] SIP/2.0 180 Ringing
+(23:34:23):<<- [8v6PCj6aLN] SIP/2.0 180 Zvoni
+(23:34:25):->> [8v6PCj6aLN] SIP/2.0 200 Ok
+(23:34:25):<<- [8v6PCj6aLN] SIP/2.0 200 Vsetko okey
+(23:34:25):->> [8v6PCj6aLN] ACK - zaciatok hovoru 
+(23:34:25):<<- [8v6PCj6aLN] ACK - zaciatok hovoru 
+(23:34:35):->> [8v6PCj6aLN] REFER sip:bob@192.168.0.21:37973;transport=udp SIP/2.0 | From:matus@192.168.0.12 -> To:bob@192.168.0.12
+(23:34:35):<<- [8v6PCj6aLN] REFER sip:bob@192.168.0.21:37973;transport=udp SIP/2.0 | From:matus@192.168.0.12 -> To:bob@192.168.0.12 
+(23:34:35):->> [8v6PCj6aLN] SIP/2.0 202 Accepted
+(23:34:35):<<- [8v6PCj6aLN] SIP/2.0 202 Accepted
+(23:34:36):->> [8v6PCj6aLN] INVITE | From:bob@192.168.0.12 -> To:matus@192.168.0.12
+(23:34:36):<<- [8v6PCj6aLN] INVITE | From:bob@192.168.0.12 -> To:matus@192.168.0.12
+(23:34:36):->> [tQ6mL07XET] INVITE - pozvanka do hovoru| From:bob@192.168.0.12 -> To:alicw@192.168.0.12
+(23:34:36):<<- [tQ6mL07XET] SIP/2.0 480 Docasne nedostupny
+(23:34:36):->> [8v6PCj6aLN] SIP/2.0 100 Trying
+(23:34:36):<<- [8v6PCj6aLN] SIP/2.0 100 Skusam
+(23:34:36):->> [8v6PCj6aLN] SIP/2.0 200 Ok
+(23:34:36):<<- [8v6PCj6aLN] SIP/2.0 200 Vsetko okey
+(23:34:36):->> [tQ6mL07XET] ACK 
+(23:34:36):->> [8v6PCj6aLN] ACK 
+(23:34:36):<<- [8v6PCj6aLN] ACK 
+(23:34:36):>>> NOTIFY sip:matus@192.168.0.13:51602;pn-prid=B7FD194D2B9C3604B544F13E2F11E510F4BEF510FAA4E02C54656F9EE78E64F1:voip&BCB66E89CC0D4F16C20EC61B0D4583895576FBDC45DEAFBD7E8F7C760BA7FB22:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+(23:34:36):<<- [8v6PCj6aLN] SIP/2.0 200 Vsetko okey
+(23:34:36):>>> NOTIFY sip:matus@192.168.0.13:51602;pn-prid=B7FD194D2B9C3604B544F13E2F11E510F4BEF510FAA4E02C54656F9EE78E64F1:voip&BCB66E89CC0D4F16C20EC61B0D4583895576FBDC45DEAFBD7E8F7C760BA7FB22:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+(23:34:36):<<- [8v6PCj6aLN] SIP/2.0 200 Vsetko okey
+(23:34:36):->> [8v6PCj6aLN] INVITE | From:bob@192.168.0.12 -> To:matus@192.168.0.12
+(23:34:36):<<- [8v6PCj6aLN] INVITE | From:bob@192.168.0.12 -> To:matus@192.168.0.12
+(23:34:36):->> [8v6PCj6aLN] SIP/2.0 100 Trying
+(23:34:36):<<- [8v6PCj6aLN] SIP/2.0 100 Skusam
+(23:34:36):->> [8v6PCj6aLN] SIP/2.0 200 Ok
+(23:34:36):<<- [8v6PCj6aLN] SIP/2.0 200 Vsetko okey
+(23:34:37):->> [8v6PCj6aLN] ACK 
+(23:34:37):<<- [8v6PCj6aLN] ACK 
+(23:34:40):->> [8v6PCj6aLN] BYE - ukoncenie hovoru | From:bob@192.168.0.12 -> To:matus@192.168.0.12
+(23:34:40):<<- [8v6PCj6aLN] BYE - ukoncenie hovoru | From:bob@192.168.0.12 -> To:matus@192.168.0.12 
+(23:34:40):->> [8v6PCj6aLN] SIP/2.0 200 Ok
+(23:34:40):<<- [8v6PCj6aLN] SIP/2.0 200 Vsetko okey
+(23:34:49):->> [XKBFyGjuxz] INVITE - pozvanka do hovoru| From:matus@192.168.0.12 -> To:bob@192.168.0.12
+(23:34:49):<<- [XKBFyGjuxz] INVITE - pozvanka do hovoru| From:matus@192.168.0.12 -> To:bob@192.168.0.12
+(23:34:49):->> [XKBFyGjuxz] SIP/2.0 100 Trying
+(23:34:49):<<- [XKBFyGjuxz] SIP/2.0 100 Skusam
+(23:34:49):->> [XKBFyGjuxz] SIP/2.0 180 Ringing
+(23:34:49):<<- [XKBFyGjuxz] SIP/2.0 180 Zvoni
+(23:34:56):->> [XKBFyGjuxz] SIP/2.0 200 Ok
+(23:34:56):<<- [XKBFyGjuxz] SIP/2.0 200 Vsetko okey
+(23:34:56):->> [XKBFyGjuxz] ACK - zaciatok hovoru 
+(23:34:56):<<- [XKBFyGjuxz] ACK - zaciatok hovoru 
+(23:35:05):->> [XKBFyGjuxz] REFER sip:bob@192.168.0.21:37973;transport=udp SIP/2.0 | From:matus@192.168.0.12 -> To:bob@192.168.0.12
+(23:35:05):<<- [XKBFyGjuxz] REFER sip:bob@192.168.0.21:37973;transport=udp SIP/2.0 | From:matus@192.168.0.12 -> To:bob@192.168.0.12 
+(23:35:05):->> [XKBFyGjuxz] SIP/2.0 202 Accepted
+(23:35:05):<<- [XKBFyGjuxz] SIP/2.0 202 Accepted
+(23:35:06):->> [XKBFyGjuxz] INVITE | From:bob@192.168.0.12 -> To:matus@192.168.0.12
+(23:35:06):<<- [XKBFyGjuxz] INVITE | From:bob@192.168.0.12 -> To:matus@192.168.0.12
+(23:35:06):->> [DEh1cHFtwB] INVITE - pozvanka do hovoru| From:bob@192.168.0.12 -> To:alice@192.168.0.12
+(23:35:06):<<- [DEh1cHFtwB] SIP/2.0 480 Docasne nedostupny
+(23:35:06):->> [XKBFyGjuxz] SIP/2.0 100 Trying
+(23:35:06):<<- [XKBFyGjuxz] SIP/2.0 100 Skusam
+(23:35:06):->> [XKBFyGjuxz] SIP/2.0 200 Ok
+(23:35:06):<<- [XKBFyGjuxz] SIP/2.0 200 Vsetko okey
+(23:35:06):->> [DEh1cHFtwB] ACK 
+(23:35:06):->> [XKBFyGjuxz] ACK 
+(23:35:06):<<- [XKBFyGjuxz] ACK 
+(23:35:06):->> [XKBFyGjuxz] INVITE | From:bob@192.168.0.12 -> To:matus@192.168.0.12
+(23:35:06):<<- [XKBFyGjuxz] INVITE | From:bob@192.168.0.12 -> To:matus@192.168.0.12
+(23:35:06):->> [XKBFyGjuxz] SIP/2.0 100 Trying
+(23:35:06):<<- [XKBFyGjuxz] SIP/2.0 100 Skusam
+(23:35:06):->> [XKBFyGjuxz] SIP/2.0 200 Ok
+(23:35:06):<<- [XKBFyGjuxz] SIP/2.0 200 Vsetko okey
+(23:35:07):->> [XKBFyGjuxz] ACK 
+(23:35:07):<<- [XKBFyGjuxz] ACK 
+(23:35:07):>>> NOTIFY sip:matus@192.168.0.13:51602;pn-prid=B7FD194D2B9C3604B544F13E2F11E510F4BEF510FAA4E02C54656F9EE78E64F1:voip&BCB66E89CC0D4F16C20EC61B0D4583895576FBDC45DEAFBD7E8F7C760BA7FB22:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+(23:35:07):<<- [XKBFyGjuxz] SIP/2.0 200 Vsetko okey
+(23:35:07):>>> NOTIFY sip:matus@192.168.0.13:51602;pn-prid=B7FD194D2B9C3604B544F13E2F11E510F4BEF510FAA4E02C54656F9EE78E64F1:voip&BCB66E89CC0D4F16C20EC61B0D4583895576FBDC45DEAFBD7E8F7C760BA7FB22:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+(23:35:07):<<- [XKBFyGjuxz] SIP/2.0 200 Vsetko okey
+(23:35:12):->> [XKBFyGjuxz] BYE - ukoncenie hovoru | From:matus@192.168.0.12 -> To:bob@192.168.0.12
+(23:35:12):<<- [XKBFyGjuxz] BYE - ukoncenie hovoru | From:matus@192.168.0.12 -> To:bob@192.168.0.12 
+(23:35:12):->> [XKBFyGjuxz] SIP/2.0 200 Ok
+(23:35:12):<<- [XKBFyGjuxz] SIP/2.0 200 Vsetko okey
+(23:35:22):->> REGISTER sip:192.168.0.12 SIP/2.0 | From: bob@192.168.0.12 | Contact: 192.168.0.21:37973
+(23:35:22):<<- [K8EE4QtZym] SIP/2.0 200 Vsetko okey
+(23:35:24):->> REGISTER sip:192.168.0.12 SIP/2.0 | From: alica@192.168.0.12 | Contact: 192.168.0.15:52046
+(23:35:24):<<- [-8wMwZdocN] SIP/2.0 200 Vsetko okey
+(23:35:29):->> REGISTER sip:192.168.0.12 SIP/2.0 | From: matus@192.168.0.12 | Contact: 192.168.0.13:51602
+(23:35:29):<<- [OXEl2hQY4M] SIP/2.0 200 Vsetko okey
+(23:35:35):->> [p5ZwpGciTZ] INVITE - pozvanka do hovoru| From:matus@192.168.0.12 -> To:bob@192.168.0.12
+(23:35:35):<<- [p5ZwpGciTZ] INVITE - pozvanka do hovoru| From:matus@192.168.0.12 -> To:bob@192.168.0.12
+(23:35:35):->> [p5ZwpGciTZ] SIP/2.0 100 Trying
+(23:35:35):<<- [p5ZwpGciTZ] SIP/2.0 100 Skusam
+(23:35:36):->> [p5ZwpGciTZ] SIP/2.0 180 Ringing
+(23:35:36):<<- [p5ZwpGciTZ] SIP/2.0 180 Zvoni
+(23:35:38):->> [p5ZwpGciTZ] SIP/2.0 200 Ok
+(23:35:38):<<- [p5ZwpGciTZ] SIP/2.0 200 Vsetko okey
+(23:35:38):->> [p5ZwpGciTZ] ACK - zaciatok hovoru 
+(23:35:38):<<- [p5ZwpGciTZ] ACK - zaciatok hovoru 
+(23:35:46):->> [p5ZwpGciTZ] REFER sip:bob@192.168.0.21:37973;transport=udp SIP/2.0 | From:matus@192.168.0.12 -> To:bob@192.168.0.12
+(23:35:46):<<- [p5ZwpGciTZ] REFER sip:bob@192.168.0.21:37973;transport=udp SIP/2.0 | From:matus@192.168.0.12 -> To:bob@192.168.0.12 
+(23:35:47):->> [p5ZwpGciTZ] SIP/2.0 202 Accepted
+(23:35:47):<<- [p5ZwpGciTZ] SIP/2.0 202 Accepted
+(23:35:47):->> [p5ZwpGciTZ] INVITE | From:bob@192.168.0.12 -> To:matus@192.168.0.12
+(23:35:47):<<- [p5ZwpGciTZ] INVITE | From:bob@192.168.0.12 -> To:matus@192.168.0.12
+(23:35:47):->> [NCJXksTbMS] INVITE - pozvanka do hovoru| From:bob@192.168.0.12 -> To:alica@192.168.0.12
+(23:35:47):<<- [NCJXksTbMS] INVITE - pozvanka do hovoru| From:bob@192.168.0.12 -> To:alica@192.168.0.12
+(23:35:47):->> [NCJXksTbMS] SIP/2.0 100 Trying
+(23:35:47):<<- [NCJXksTbMS] SIP/2.0 100 Skusam
+(23:35:47):->> [p5ZwpGciTZ] SIP/2.0 100 Trying
+(23:35:47):<<- [p5ZwpGciTZ] SIP/2.0 100 Skusam
+(23:35:47):->> [p5ZwpGciTZ] SIP/2.0 200 Ok
+(23:35:47):<<- [p5ZwpGciTZ] SIP/2.0 200 Vsetko okey
+(23:35:47):->> [p5ZwpGciTZ] ACK 
+(23:35:47):<<- [p5ZwpGciTZ] ACK 
+(23:35:47):>>> NOTIFY sip:matus@192.168.0.13:51602;pn-prid=B7FD194D2B9C3604B544F13E2F11E510F4BEF510FAA4E02C54656F9EE78E64F1:voip&BCB66E89CC0D4F16C20EC61B0D4583895576FBDC45DEAFBD7E8F7C760BA7FB22:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+(23:35:47):<<- [p5ZwpGciTZ] SIP/2.0 200 Vsetko okey
+(23:35:48):->> [NCJXksTbMS] SIP/2.0 180 Ringing
+(23:35:48):<<- [NCJXksTbMS] SIP/2.0 180 Zvoni
+(23:35:53):->> [NCJXksTbMS] SIP/2.0 200 Ok
+(23:35:53):<<- [NCJXksTbMS] SIP/2.0 200 Vsetko okey
+(23:35:54):>>> NOTIFY sip:matus@192.168.0.13:51602;pn-prid=B7FD194D2B9C3604B544F13E2F11E510F4BEF510FAA4E02C54656F9EE78E64F1:voip&BCB66E89CC0D4F16C20EC61B0D4583895576FBDC45DEAFBD7E8F7C760BA7FB22:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+(23:35:54):<<- [p5ZwpGciTZ] SIP/2.0 200 Vsetko okey
+(23:35:54):->> [NCJXksTbMS] SIP/2.0 200 Ok
+(23:35:54):<<- [NCJXksTbMS] SIP/2.0 200 Vsetko okey
+(23:35:54):->> [NCJXksTbMS] ACK - zaciatok hovoru 
+(23:35:54):<<- [NCJXksTbMS] ACK - zaciatok hovoru 
+(23:35:54):->> [NCJXksTbMS] ACK 
+(23:35:54):<<- [NCJXksTbMS] ACK 
+(23:36:00):->> [NCJXksTbMS] BYE - ukoncenie hovoru | From:alica@192.168.0.12 -> To:bob@192.168.0.12
+(23:36:00):<<- [NCJXksTbMS] BYE - ukoncenie hovoru | From:alica@192.168.0.12 -> To:bob@192.168.0.12 
+(23:36:00):->> [NCJXksTbMS] SIP/2.0 200 Ok
+(23:36:00):<<- [NCJXksTbMS] SIP/2.0 200 Vsetko okey
+(23:36:04):->> [p5ZwpGciTZ] INVITE | From:bob@192.168.0.12 -> To:matus@192.168.0.12
+(23:36:04):<<- [p5ZwpGciTZ] INVITE | From:bob@192.168.0.12 -> To:matus@192.168.0.12
+(23:36:05):->> [p5ZwpGciTZ] SIP/2.0 100 Trying
+(23:36:05):<<- [p5ZwpGciTZ] SIP/2.0 100 Skusam
+(23:36:05):->> [p5ZwpGciTZ] SIP/2.0 200 Ok
+(23:36:05):<<- [p5ZwpGciTZ] SIP/2.0 200 Vsetko okey
+(23:36:05):->> [p5ZwpGciTZ] ACK 
+(23:36:05):<<- [p5ZwpGciTZ] ACK 
+(23:36:08):->> [p5ZwpGciTZ] BYE - ukoncenie hovoru | From:matus@192.168.0.12 -> To:bob@192.168.0.12
+(23:36:08):<<- [p5ZwpGciTZ] BYE - ukoncenie hovoru | From:matus@192.168.0.12 -> To:bob@192.168.0.12 
+(23:36:08):->> [p5ZwpGciTZ] SIP/2.0 200 Ok
+(23:36:08):<<- [p5ZwpGciTZ] SIP/2.0 200 Vsetko okey
+(23:36:56):>>> PUBLISH sip:alica@192.168.0.12 SIP/2.0
+(23:36:56):<<- [lOPE5UzrlB] SIP/2.0 200 Vsetko okey
+(23:44:24):->> REGISTER sip:192.168.0.12 SIP/2.0 | From: alica@192.168.0.12 | Contact: 192.168.0.15:52046
+(23:44:24):<<- [-8wMwZdocN] SIP/2.0 200 Vsetko okey
+(23:45:56):>>> PUBLISH sip:alica@192.168.0.12 SIP/2.0
+(23:45:56):<<- [lOPE5UzrlB] SIP/2.0 200 Vsetko okey
