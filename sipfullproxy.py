@@ -205,8 +205,9 @@ class UDPHandler(socketserver.BaseRequestHandler):
                 return line[9:]
         return callid
 
-    #metoda na zostavenie a odoslanie odpovede klientovy od ktoreho sme dostaly request spravu
-    #responce je zostaveny z obsahu pôvodnej spravy pričom
+    #metoda na zostavenie a odoslanie odpovede so zadaným status kodom klientovy od ktoreho sprava prišla
+    #odosiela odpovede na REGISTER,SUBSCRIBE,PUBLISH,NOTIFY a ine chybove stavy ktore môžu nastať
+    #responce je zostaveny z obsahu pôvodnej spravy + upravy
     def sendResponse(self,code):
         request_uri = "SIP/2.0 " + code #zostavenie status line s verzou sip a stavovým kodom
         self.data[0]= request_uri #nastavenie status line datach pôvodnej správy
@@ -310,6 +311,7 @@ class UDPHandler(socketserver.BaseRequestHandler):
         logging.info("->> [%s] INVITE %s| From:%s -> To:%s" % (callid,oznam,origin,destination))
 
         if len(origin) == 0 or origin not in registrar: #ak origin 0 alebo odosielatel nieje zaregistrovany
+            # odpovedame klientovi od ktoreho prisiel invite 400 Zla poziadavka
             self.sendResponse("400 Zla poziadavka")
             return
         if len(destination) > 0:
@@ -327,8 +329,10 @@ class UDPHandler(socketserver.BaseRequestHandler):
                 logging.info("<<- [%s] INVITE %s| From:%s -> To:%s" % (self.getCallId(data),oznam,origin,destination))
                 logging.debug("---\n<< server send [%d]:\n%s\n---" % (len(text),text))
             else:
+                # odpovedame klientovi od ktoreho prisiel invite 480 Zla poziadavka
                 self.sendResponse("480 Docasne nedostupny") #inak odpoved 480 Docasne nedostupny
         else:
+            # odpovedame klientovi od ktoreho prisiel invite 500 Zla poziadavka
             self.sendResponse("500 Interny error servera")
 
     #metoda na spracovanie prijatej ACK spravy a zostavenie ACK spravy na preposlanie druhemu klientovu ktoremu bola mierená
@@ -383,6 +387,7 @@ class UDPHandler(socketserver.BaseRequestHandler):
 
         logging.info("->> [%s] %s %s| From:%s -> To:%s" % (callid,method,oznam,origin,destination))
         if len(origin) == 0 or origin not in registrar: #ak konto/uživatel ktory poslal noninvite nieje zaregistrovany
+            # odpovedame klientovi (od ktoreho prisiel noninvite) 400 Zla poziadavka
             self.sendResponse("400 Zla poziadavka")
             return
         if len(destination) > 0:
@@ -402,8 +407,10 @@ class UDPHandler(socketserver.BaseRequestHandler):
                 logging.info("<<- [%s] %s %s| From:%s -> To:%s " % (self.getCallId(data),method,oznam,origin,destination))
                 logging.debug("---\n<< server send [%d]:\n%s\n---" % (len(text),text))    
             else:
+                # odpovedame klientovi (od ktoreho prisiel noninvite) spravu s kodom 406 
                 self.sendResponse("406 Neakceptovatelne")
         else:
+            # odpovedame klientovi (od ktoreho prisiel noninvite) spravu s kodom 500
             self.sendResponse("500 Interny error servera")
 
     #metoda na spracovanie spravy od klienta zo stavovým kodom 
@@ -508,13 +515,14 @@ class UDPHandler(socketserver.BaseRequestHandler):
             showtime()
             logging.debug("---\n>> server received [%d]:\n%s\n---" %  (len(data),data))
             logging.debug("Received from %s:%d" % self.client_address)
-            self.processRequest()                                             #tak sa zavola metoda na spracovanie správ
+            self.processRequest() #tak sa zavola metoda na spracovanie správ
         else:
             if len(data) > 4:
                 showtime()
                 logging.warning("---\n>> server received [%d]:" % len(data))
                 hexdump(data,' ',16)
                 logging.warning("---")
+
 
 if __name__ == "__main__":    
     logging.basicConfig(format='%(asctime)s:%(levelname)s:%(message)s',filename='proxy.log',level=logging.INFO,datefmt='%H:%M:%S')

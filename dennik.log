@@ -1,0 +1,26 @@
+(15:40:18):Tue, 01 Mar 2022
+(15:40:18):SIP Proxy starter at: DESKTOP-8PRR9O6, 192.168.0.12:5060
+(15:40:24):->> REGISTER sip:192.168.0.12 SIP/2.0 | From: matus@192.168.0.12 | Contact: 192.168.0.13:52984
+(15:40:24):<<- [pQ2KKiZw~p] SIP/2.0 200 Vsetko okey
+(15:40:24):->> REGISTER sip:192.168.0.12 SIP/2.0 | From: matus@192.168.0.12 | Contact: 192.168.0.13:52984
+(15:40:24):<<- [MTeh8Bjb2Z] SIP/2.0 200 Vsetko okey
+(15:40:24):->> REGISTER sip:192.168.0.12 SIP/2.0 | From: matus@192.168.0.12 | Contact: 192.168.0.13:52984
+(15:40:24):<<- [EYVXUi5Xh5] SIP/2.0 200 Vsetko okey
+(15:40:26):->> REGISTER sip:192.168.0.12 SIP/2.0 | From: matus@192.168.0.12 | Contact: 192.168.0.13:52984
+(15:40:26):<<- [EYVXUi5Xh5] SIP/2.0 200 Vsetko okey
+(15:40:36):->> REGISTER sip:192.168.0.12 SIP/2.0 | From: bob@192.168.0.12 | Contact: 192.168.0.21:43673
+(15:40:36):<<- [aypUkjnSht] SIP/2.0 200 Vsetko okey
+(15:40:38):->> [gaLma~1hrU] INVITE - pozvanka do hovoru| From:bob@192.168.0.12 -> To:matus@192.168.0.12
+(15:40:38):<<- [gaLma~1hrU] INVITE - pozvanka do hovoru| From:bob@192.168.0.12 -> To:matus@192.168.0.12
+(15:40:38):->> [gaLma~1hrU] SIP/2.0 100 Trying
+(15:40:38):<<- [gaLma~1hrU] SIP/2.0 100 Skusam
+(15:40:38):->> [gaLma~1hrU] SIP/2.0 180 Ringing
+(15:40:38):<<- [gaLma~1hrU] SIP/2.0 180 Zvoni
+(15:40:41):->> [gaLma~1hrU] SIP/2.0 200 Ok
+(15:40:41):<<- [gaLma~1hrU] SIP/2.0 200 Vsetko okey
+(15:40:41):->> [gaLma~1hrU] ACK - zaciatok hovoru 
+(15:40:41):<<- [gaLma~1hrU] ACK - zaciatok hovoru 
+(15:40:47):->> [gaLma~1hrU] BYE - ukoncenie hovoru | From:matus@192.168.0.12 -> To:bob@192.168.0.12
+(15:40:47):<<- [gaLma~1hrU] BYE - ukoncenie hovoru | From:matus@192.168.0.12 -> To:bob@192.168.0.12 
+(15:40:47):->> [gaLma~1hrU] SIP/2.0 200 Ok
+(15:40:47):<<- [gaLma~1hrU] SIP/2.0 200 Vsetko okey
