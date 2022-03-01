@@ -28,5 +28,5 @@ if input() != "0":
     udp_server.serve_forever() #spustenie servera
 else:
     exit()
-
+#c
 
